@@ -1,0 +1,4 @@
+services:
+  dependency_injection_service.custom_service:
+    class: Drupal\dependency_injection_service\services\DatabaseService
+    arguments: ['@database']

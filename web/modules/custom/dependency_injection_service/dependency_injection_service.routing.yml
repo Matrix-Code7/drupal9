@@ -1,0 +1,7 @@
+add_form:
+  path: '/employee/add'
+  defaults:
+    _form: 'Drupal\dependency_injection_service\Form\EmployeeForm'
+    _title: 'Add Employee'
+  requirements:
+    _permission: 'access content'

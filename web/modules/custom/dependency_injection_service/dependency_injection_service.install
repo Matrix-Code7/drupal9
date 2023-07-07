@@ -1,0 +1,53 @@
+<?php
+
+use Drupal\Core\Database\Database;
+
+/**
+ * Implements hook_schema().
+ */
+function dependency_injection_service_schema() {
+  $schema['employee'] = [
+    'description' => 'Table description.',
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => 'Primary Key: Unique record ID.',
+      ],
+      'name' => [
+        'type' => 'varchar',
+        'description' => 'name of user',
+        'length'  => 255,
+        'not null' => FALSE,
+        'default' => '',
+      ],
+      'email' => [
+        'type' => 'varchar',
+        'description' => 'email of user',
+        'length'  => 255,
+        'not null' => FALSE,
+        'default' => '',
+      ],
+      'created' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'Timestamp when the record was created.',
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+
+  return $schema;
+}
+
+
+
+/**
+ * Implements hook_uninstall().
+ */
+function dependency_injection_service_uninstall() {
+  $connection = Database::getConnection();
+  $table_name = 'employee';
+  $connection->schema()->dropTable($table_name);
+}

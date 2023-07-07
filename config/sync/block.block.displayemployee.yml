@@ -1,0 +1,25 @@
+uuid: 12235d2b-942a-482b-ac45-e2c20c81270b
+langcode: en
+status: true
+dependencies:
+  module:
+    - dependency_injection_service
+    - system
+  theme:
+    - olivero
+id: displayemployee
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: display_employee
+settings:
+  id: display_employee
+  label: 'Display Employee'
+  label_display: '0'
+  provider: dependency_injection_service
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /employee/add
