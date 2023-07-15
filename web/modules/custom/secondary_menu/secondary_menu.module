@@ -1,0 +1,17 @@
+<?php
+
+
+/**
+ * Implements hook_theme()
+ */
+function secondary_menu_theme(){
+    return [
+        'secondary_menu_template' => [
+            'variables' => [
+                'data' => NULL,
+                'languages' => NULL
+            ],
+            'template' => 'secondary_menu'
+        ]
+    ];
+}

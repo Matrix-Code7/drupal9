@@ -1,0 +1,22 @@
+uuid: fdd74a44-994b-4d74-9c47-621f717bb282
+langcode: en
+status: true
+dependencies:
+  theme:
+    - johns_hopkins
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: johns_hopkins_primary_local_tasks
+theme: johns_hopkins
+region: banner
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

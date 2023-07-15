@@ -1,0 +1,20 @@
+uuid: 8f5b529f-642d-4462-bdb9-ea7db377815c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - johns_hopkins
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: johns_hopkins_primary_admin_actions
+theme: johns_hopkins
+region: banner
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

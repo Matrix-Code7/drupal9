@@ -1,0 +1,23 @@
+uuid: fb798ea1-a5ca-49a1-be7a-46c9602147d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - johns_hopkins
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: johns_hopkins_search_form_wide
+theme: johns_hopkins
+region: banner
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

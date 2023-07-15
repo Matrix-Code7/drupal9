@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - filter.format.restricted_html
+    - rest.resource.rest_api_customrestapi
   module:
     - comment
     - contact
     - filter
+    - rest
     - search
     - system
 _core:
@@ -20,5 +22,10 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'administer rest resources'
+  - 'restful delete rest_api_customrestapi'
+  - 'restful get rest_api_customrestapi'
+  - 'restful patch rest_api_customrestapi'
+  - 'restful post rest_api_customrestapi'
   - 'search content'
   - 'use text format restricted_html'

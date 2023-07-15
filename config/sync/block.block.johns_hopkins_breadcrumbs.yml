@@ -1,0 +1,22 @@
+uuid: c6de5563-423d-42e5-bd32-84efd6e7e9dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - johns_hopkins
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: johns_hopkins_breadcrumbs
+theme: johns_hopkins
+region: banner
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

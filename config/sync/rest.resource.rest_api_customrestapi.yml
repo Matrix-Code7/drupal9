@@ -1,0 +1,21 @@
+uuid: 0b6dbaf8-329a-4f75-b5d7-f01dd859dee9
+langcode: en
+status: true
+dependencies:
+  module:
+    - jwt
+    - rest_api
+    - serialization
+id: rest_api_customrestapi
+plugin_id: rest_api_customrestapi
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+    - PATCH
+  formats:
+    - json
+    - xml
+  authentication:
+    - jwt_auth

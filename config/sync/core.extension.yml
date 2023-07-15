@@ -1,7 +1,12 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
   automated_cron: 0
+  basic_auth: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -24,6 +29,11 @@ module:
   help: 0
   history: 0
   image: 0
+  jwt: 0
+  jwt_auth_consumer: 0
+  jwt_auth_issuer: 0
+  jwt_path_auth: 0
+  key: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
@@ -33,19 +43,29 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  rest: 0
+  rest_api: 0
+  restui: 0
   search: 0
+  secondary_menu: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
   toolbar: 0
   tour: 0
+  twig_tweak: 0
   update: 0
   user: 0
+  users_jwt: 0
   views_ui: 0
   views: 10
   standard: 1000
 theme:
   olivero: 0
   claro: 0
+  johns_hopkins: 0
+  stable9: 0
+  bootstrap5: 0
 profile: standard

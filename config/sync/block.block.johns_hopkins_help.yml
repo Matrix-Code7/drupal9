@@ -1,0 +1,22 @@
+uuid: cb386c10-3558-4efb-bc71-16451e8a9bbe
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - johns_hopkins
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: johns_hopkins_help
+theme: johns_hopkins
+region: banner
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

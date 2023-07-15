@@ -1,0 +1,23 @@
+uuid: 3ac67ceb-7efb-4ee0-a1a0-59c4f642c190
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - johns_hopkins
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: johns_hopkins_search_form_narrow
+theme: johns_hopkins
+region: banner
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

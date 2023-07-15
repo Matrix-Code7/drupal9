@@ -1,0 +1,20 @@
+uuid: afc923ba-9d47-4d05-9109-9fd885bfba66
+langcode: en
+status: true
+dependencies:
+  module:
+    - secondary_menu
+  theme:
+    - olivero
+id: secondarymenu
+theme: olivero
+region: secondary_menu
+weight: 0
+provider: null
+plugin: secondary_menu
+settings:
+  id: secondary_menu
+  label: 'Secondary Menu'
+  label_display: '0'
+  provider: secondary_menu
+visibility: {  }

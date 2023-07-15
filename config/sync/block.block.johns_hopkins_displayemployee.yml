@@ -1,0 +1,25 @@
+uuid: 541f76d0-538a-458b-8ca6-6d15c7a5942e
+langcode: en
+status: true
+dependencies:
+  module:
+    - dependency_injection_service
+    - system
+  theme:
+    - johns_hopkins
+id: johns_hopkins_displayemployee
+theme: johns_hopkins
+region: content
+weight: 0
+provider: null
+plugin: display_employee
+settings:
+  id: display_employee
+  label: 'Display Employee'
+  label_display: '0'
+  provider: dependency_injection_service
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /employee/add

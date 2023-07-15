@@ -1,0 +1,20 @@
+uuid: 65cad7d1-f274-477b-a2cb-d946781e1a5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - secondary_menu
+  theme:
+    - johns_hopkins
+id: johns_hopkins_secondarymenu
+theme: johns_hopkins
+region: banner
+weight: 0
+provider: null
+plugin: secondary_menu
+settings:
+  id: secondary_menu
+  label: 'Secondary Menu'
+  label_display: '0'
+  provider: secondary_menu
+visibility: {  }
