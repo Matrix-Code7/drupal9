@@ -1,0 +1,21 @@
+uuid: c0140ed7-9e05-4c5d-a395-fce3db5978cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - jwt
+    - media
+    - serialization
+id: entity.media
+plugin_id: 'entity:media'
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - json
+  authentication:
+    - jwt_auth
+    - basic_auth

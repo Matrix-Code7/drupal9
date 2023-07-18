@@ -1,0 +1,23 @@
+uuid: 9cb66a91-fa81-40ab-a2bb-9be25be8a72a
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - jwt
+    - node
+    - serialization
+id: entity.node
+plugin_id: 'entity:node'
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+    - DELETE
+    - PATCH
+  formats:
+    - json
+  authentication:
+    - jwt_auth
+    - basic_auth
