@@ -1,0 +1,7 @@
+event_module.form:
+ path: '/form'
+ defaults:
+  _form: 'Drupal\event_module\Form\UserForm'
+  _title: 'Fill The Form to Perform Eevnt'
+ requirements:
+  _permission: 'access content'

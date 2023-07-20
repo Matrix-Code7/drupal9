@@ -1,0 +1,6 @@
+name: Event Module
+type: module
+package: custom
+description: 'This Module is for Custom Events'
+version: 1.x
+core_version_requirement: ^9 || ^10

@@ -6,6 +6,7 @@
  */
 namespace Drupal\dependency_injection_service\Form;
 
+use Drupal\node\NodeInterface;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\dependency_injection_service\services\DatabaseService;
@@ -15,6 +16,7 @@ class EmployeeForm extends FormBase
 {
 
     protected $db;
+    protected $node;
 
     public function __construct(DatabaseService $db)
     {
@@ -29,7 +31,7 @@ class EmployeeForm extends FormBase
         );
     }
 
-    public function buildForm(array $form, FormStateInterface $form_state)
+    public function buildForm(array $form, FormStateInterface $form_state, NodeInterface $node = NULL)
     {
         $form['email'] = [
             '#type' => 'textfield',
@@ -79,5 +81,5 @@ class EmployeeForm extends FormBase
 
 }
 
-
+    
 ?>

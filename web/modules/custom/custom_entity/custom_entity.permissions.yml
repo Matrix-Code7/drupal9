@@ -1,0 +1,11 @@
+administer custom entity:
+  title: 'Administer custom entity settings'
+  restrict access: true
+delete custom entity:
+  title: Delete custom entity
+create custom entity:
+  title: Create custom entity
+view custom entity:
+  title: View custom entity
+edit custom entity:
+  title: Edit custom entity

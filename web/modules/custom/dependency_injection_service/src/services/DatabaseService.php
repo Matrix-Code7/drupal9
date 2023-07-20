@@ -2,7 +2,6 @@
 
 
 namespace Drupal\dependency_injection_service\services;
-
 use Drupal\Core\Database\Connection;
 
 class DatabaseService

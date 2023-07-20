@@ -1,0 +1,9 @@
+services:
+ # Name of the service you want to give
+ user_login_event:
+   # Subscribe to the event subscribe class that listen your custom event
+   class: 'Drupal\event_module\EventSubscriber\CustomEventSubscriber'
+   # tagged you as event subscriber to register your event with event dispatch services
+   tags:
+      - { name: 'event_subscriber'}
+  
