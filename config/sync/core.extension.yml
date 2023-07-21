@@ -16,18 +16,20 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  custom_entity: 0
   datetime: 0
   dblog: 0
   dependency_injection_service: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
+  event_module: 0
   example_dependency_injection: 0
   field: 0
   field_ui: 0
   file: 0
   file_entity: 0
   filter: 0
-  hal: 0
   help: 0
   history: 0
   image: 0
@@ -47,6 +49,7 @@ module:
   rest: 0
   rest_api: 0
   restui: 0
+  route_alter: 0
   search: 0
   secondary_menu: 0
   serialization: 0
@@ -68,5 +71,5 @@ theme:
   claro: 0
   johns_hopkins: 0
   stable9: 0
-  bootstrap5: 0
+  gin: 0
 profile: standard
